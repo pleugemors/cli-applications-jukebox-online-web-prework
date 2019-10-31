@@ -39,7 +39,7 @@ def play(song_list)
   answer = gets.strip
   if answer = answer.to_i.to_s
     if answer.to_i >0 && answer.to_i < song_list. length+1
-      puts "#{answer}. #{song_list[answer.to_i-1]}"
+      puts "Playing #{song_list[answer.to_i-1]}"
     else
       puts "Inavalid input, please try again"
     end
