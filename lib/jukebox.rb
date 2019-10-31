@@ -49,7 +49,7 @@ def play(song_list)
     while song_list[row] do
       binding.pry
       if song_list[row] == answer
-        puts "#{row+1}. #{song_list[row]}"
+        puts "Playing #{song_list[row]}"
       end
       
       row += 1 
