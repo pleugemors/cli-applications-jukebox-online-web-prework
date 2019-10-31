@@ -47,7 +47,6 @@ def play(song_list)
   else
     row = 0 
     while song_list[row] do
-      binding.pry
       if song_list[row] == answer
         puts "Playing #{song_list[row]}"
       end
